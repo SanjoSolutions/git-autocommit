@@ -1,5 +1,4 @@
 #!/bin/bash
 
-watchman watch ~/projects/git-autocommit
-watchman -- trigger ~/projects/git-autocommit auto-commit '*' -- ./auto-commit.sh
-
+watchman watch ~/Art
+watchman -- trigger ~/Art auto-commit '*' -- ~/git-autocommit/auto-commit.sh
